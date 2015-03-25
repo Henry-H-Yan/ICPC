@@ -4,8 +4,10 @@ import java.util.*;
 
 public class p6 {
 
+
+  // sieve program to compute a table of prime numbers
 	
-	static boolean[] primes= new boolean[6];
+	static boolean[] primes= new boolean[1000];
 	
 	public static void sleve(){
 		
@@ -32,7 +34,7 @@ public class p6 {
 	
 	private static void printPrimes() {
 		for(int i=0;i<primes.length;i++)
-			if(primes[i]) System.out.println(i+" ");
+			if(primes[i])    System.out.println(i+" ");
 		
 		
 	}
@@ -50,8 +52,7 @@ public class p6 {
 		
 		
 		
-		
-		
+	
 	}
 
 
